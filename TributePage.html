@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The title -->
+    <title>TributePage</title>
+    <!-- The link to my style sheet -->
+    <link rel="stylesheet" href="TributeStyle.css">
+    <!-- I want to import a cool google font -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <!-- This next bunch is for roboto, why do we need to preconnect? -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!--HERE IS THE RUBRIC FOR THIS ASSIGNMENT: 
+
+        You'll see an element with a corresponding id="main", which contains all other elements.
+
+ You'll see an element with a corresponding id="title",  that describes the subject of the tribute 
+
+User Story #3: I should see either a figure or a div element with a corresponding id="img-div".
+
+User Story #4: Within the img-div element, I should see an img element with a corresponding id="image".
+
+User Story #5: Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div.
+
+User Story #6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.
+
+User Story #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank").
+
+User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
+
+User Story #9: The img element should be centered within its parent element.
+
+ -->
+</head>
+
+<body>
+    <main id="main">
+        <div id="title">
+            <h1>Jacky Faber</h1>
+
+            <h2>Female businesswoman, sailor, musician, scholar, playwright, linguist, spy, and pirate</h2>
+        </div>
+        <figure id="img-div">
+            <br>
+            <img id="image" src="images/jackyfaber.jpg" ;>
+            <p id="img-caption">Mary Faber dressed as a boy and used her father's name, Jack, to enlist in the Royal
+                Navy at age 10.</p>
+
+            <br>
+        </figure>
+        <div id="box-container">
+            <article id="tribute-info">
+                <h1>
+                    Read the published works describing Jacky's Adventures
+                </h1>
+                <ul>
+                    <li>Bloody Jack: Being an Account of the Curious Adventures of Mary ‘Jacky’ Faber, Ship’s Boy</li>
+                    <li>Bloody Jack: Being an Account of the Misadventures of Jacky Faber, Midshipman and Fine Lady</li>
+                    <li>Under The Jolly Roger: Being an Account of the Further Nautical Adventures of Jacky Faber</li>
+                    <li>In The Belly Of The Bloodhound: Being an Account of a Particularly Peculiar Adventure in the
+                        Life of
+                        Jacky Faber</li>
+                    <li>Mississippi Jack: Being an Account of the Further Waterborne Adventures of Jacky Faber,
+                        Midshipman,
+                        Fine Lady, and Lily of the West</li>
+                    <li>My Bonny Light Horseman: Being an Account of the Further Adventures of Jacky Faber, in Love and
+                        War
+                    </li>
+                    <li>Rapture Of The Deep: Being an Account of the Further Adventures of Jacky Faber, Soldier, Sailor,
+                        Mermaid, Spy</li>
+                    <li>The Wake Of The Lorelei Lee: Being an Account of the Further Adventures of Jacky Faber, on Her
+                        Way
+                        to Botany Bay</li>
+                    <li>The Mark Of The Golden Dragon: Being an Account of the Further Adventures of Jacky Faber, Jewel
+                        of
+                        the East, Vexation of the West, and Pearl of the South China Sea</li>
+                    <li>Viva Jacquelina!: Being an Account of the Further Adventures of Jacky Faber, Over the Hills and
+                        Far
+                        Away</li>
+                    <li>Boston Jacky: Being an Account of the Further Adventures of Jacky Faber, Taking Care of Business
+                    </li>
+                    <li> Wild Rover No More: Being the Last Recorded Account of the Life & Times of Jacky Faber</li>
+                </ul>
+
+            </article>
+        </div>
+
+        <footer id="tribute-link">
+            Unfortunately, Jacky Faber is a fictional character, but fortunately you can <a
+                href="https://www.amazon.com/Bloody-Jack-Adventures-12-book-series/dp/B074C22JZ7?ref=dbs_m_mng_rwt_0000_ext">
+                start reading her amazing adventures</a> right now.
+        </footer>
+    </main>
+</body>
+
+</html>

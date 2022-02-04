@@ -1,0 +1,70 @@
+#main{
+    color: #133466;
+    background-color: #d4ccbc;
+    font-family: Roboto, monoprint;
+    text-align: center;
+ }
+#title{
+
+    
+    text-align: center;
+
+}
+h1{
+    font-family: Lobster, monoprint;
+    padding: 40px;
+    padding-bottom: 5px;
+    font-size: 40px;
+    color: #133466;
+}
+h2{
+    font-family: Roboto, monoprint;
+    padding: 20px;
+    color:#133466;
+}
+
+#img-div{
+    background-image: url("images/oceanwaves.png");
+    /* next two lines are so the image can scale */
+    max-width: 100%;
+    height: auto;
+    background-position: left bottom;
+
+}
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+/*     width: 50%;
+    max-width: 100%;
+    max-height: 400px; */
+    border-radius: 10px;
+  }
+  #img-caption{
+    color: #133466;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    
+  }
+  #box-container {
+   
+    display: flex;
+    
+
+  }
+  #tribute-info{
+      text-align: center;
+      max: width 100%;
+      width:600px;
+      margin:auto;
+      
+  }
+  li{
+    line-height: 1.8;
+      font-size: 16px;
+  }
+  #tribute-link{
+      font-family: Lobster;
+      font-size: 20px;
+  }
